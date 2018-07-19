@@ -23,6 +23,6 @@ public class Circle implements Shape {
     }
     
     public void draw() {
-        System.out.println("Circle: Draw() [Color : " + color + ", x: " + x + ", y: " + y + ", radius: " + radius);
+        System.out.println("Circle: Draw() [Color : " + color + ", x: " + x + ", y: " + y + ", radius: " + radius + "]");
     }
 }
