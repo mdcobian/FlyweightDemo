@@ -7,7 +7,7 @@ public class FlyweightDemo {
             Circle circle = (Circle)ShapeFactory.getCircle(getRandomColor());
             circle.setX(getRandom());
             circle.setY(getRandom());
-            circle.setRadius(100);
+            circle.setRadius(getRandom());
             circle.draw();
         }
     }
